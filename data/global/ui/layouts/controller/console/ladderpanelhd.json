@@ -1,0 +1,89 @@
+{
+    "basedOn": "LadderPanelHD.json",
+    "type": "LadderPanel", "name": "LadderPanel",
+    "fields": {
+        "rect": { "x": -660, "y": 350, "scale": "$ConsoleUIScale" },
+        "priority": 2,
+        "anchor": {"x": 0.5}
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ListFrame",
+        },
+        {
+            "type": "ImageWidget", "name": "ListBackground",
+        },
+        {
+            "type": "TextBoxWidget", "name": "SeasonTitle",
+        },
+        {
+            "type": "ImageWidget", "name": "SeasonDropdown",
+        },
+        {
+            "type": "TextBoxWidget", "name": "TypeTitle",
+        },
+        {
+            "type": "ImageWidget", "name": "TypeDropdown",
+        },
+        {
+            "type": "TextBoxWidget", "name": "ClassTitle",
+        },
+        {
+            "type": "ImageWidget", "name": "ClassDropdown",
+        },
+        {
+            "type": "TextBoxWidget", "name": "SearchTitle",
+        },
+        {
+            "type": "ImageWidget", "name": "SearchBarBackground",
+        },
+        {
+            "type": "TextBoxWidget", "name": "RankTitle",
+        },
+        {
+            "type": "TextBoxWidget", "name": "NameTitle",
+        },
+        {
+            "type": "TextBoxWidget", "name": "ClassTitle2",
+        },
+        {
+            "type": "TextBoxWidget", "name": "LevelTitle",
+        },
+        {
+            "type": "TextBoxWidget", "name": "ExperienceTitle",
+        },
+        {
+            "type": "ImageWidget", "name": "LeftButtonBackground",
+            "children": [
+                {
+                    "type": "ButtonWidget", "name": "LeftArrowButton",
+                },
+            ]
+        },
+       
+        {
+            "type": "ImageWidget", "name": "RightButtonBackground",
+            "children": [
+                {
+                    "type": "ButtonWidget", "name": "RightArrowButton",
+                },
+            ]
+        },
+        {
+            "type": "ButtonLegendWidget", "name": "Legend",
+            "fields": {
+                "rect": { "x": -860, "y": 1410, "width": 2880, "height": 100 },
+                "text": { "style": "$StyleButtonLegend" },
+                "presets": [
+                    {
+                        "action": "back",
+                        "description": "@ControllerPromptModalCancel",
+                    },
+                ]
+            },
+        },
+        {
+             "type": "TextBoxWidget", "name": "ComingSoonText",
+        }
+    ]
+}
