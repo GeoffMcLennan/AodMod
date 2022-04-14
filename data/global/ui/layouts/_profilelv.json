@@ -148,4 +148,8 @@
     "TooltipDismissLarge": { "x": 200, "y": 900 },
     "TooltipConfirmXL": { "x": 200, "y": 1050 },
     "TooltipDismissXL": { "x": 200, "y": 1200 },
+
+    // Join game tweaks.
+    "JoinGamePlayerEntryHeight": 140,
+    "JoinGamePlayerNameHeight": 100,
 }
