@@ -10,6 +10,16 @@
     "ScrollSpeechOffset": -525, // This is negative and half of the width; Used as the horizontal offset.
     "QuestLogScrollingSpeechParentRect": { "x": 298, "y": 1190, "width": 770, "height": 254 },
 
+    //ModStart ExpandedStorageMod
+    //
+    //modcomment: Panels scale like in vanilla.
+    //
+    //modcomment: Though some things to move to make it fit different resolutions...
+    //
+	"BankPanelRect": { "x": 0, "y": 0, "width": 1750, "height": 1799, "scale": 1.16 },
+	"BankPanelGoldAmountRect": { "x": 1135, "y": 1596, "width": 249, "height": 48 },
+	"BankPanelGoldWithdrawRect": { "x": 1080, "y": 1593 },
+
     "StyleWeaponSwapTabs": {
         "fontColor": "$FontColorLightGold",
         "pointSize": "$LargeFontSize",
