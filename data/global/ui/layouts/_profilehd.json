@@ -15,6 +15,14 @@
     "ScrollSpeechOffset": -400, // This is negative and half of the width; Used as the horizontal offset.
     "QuestLogScrollingSpeechParentRect": { "x": 198, "y": 1015, "width": 770, "height": 254 },
 
+    //ModStart ExpandedStorageMod
+    //
+    //modcomment: New variables to allow changes for _profile_lv
+    //
+    "BankPanelRect" : { "x": 236, "y": 210, "width": 1750, "height": 1799 },
+    "BankPanelGoldAmountRect": { "x": 777, "y": 1596, "width": 249, "height": 48 },
+    "BankPanelGoldWithdrawRect": { "x": 717, "y": 1593 },
+
     // Lobby panel rects.
     "LobbyAnchor": {"x": 0.5},
     "LeftLobbyRect": {"x": -1677, "y": 25},
